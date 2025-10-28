@@ -1,0 +1,1 @@
+`src`: Burada projdenin ana kaynak dosyaları bulunur.

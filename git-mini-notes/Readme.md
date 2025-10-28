@@ -1,4 +1,5 @@
-# Git (yerel) — “durum” ve “log”
+# Genel Git Komutları
+## Git (yerel) — “durum” ve “log”
 - Durum (çalışma alanı / staging):
     - `git status`: okunabilir özet
     - `git status -sb`: kısa (branch + özet)`
@@ -27,4 +28,11 @@
 
 - Kayıp commitleri bile kurtarmak için:
     - `git reflog`: HEAD’in geçmiş hareketleri (geri dönüş/kurtarma için altın değerinde)
-     
+
+
+## Yeni branch oluşturma ve yeni brach'i aktif etme
+- `git fetch origin`
+- `git switch main`: (eski gitlerde: git checkout main)
+- `git pull --ff-only origin main`: main’i güncelle
+- `git switch -c feature/cifar-aug`: yeni branch’i oluştur ve geç
+- `git push -u origin feature/cifar-aug`: uzakta oluştur + upstream ayarla
