@@ -1,1 +1,1 @@
-`src`: Burada projdenin ana kaynak dosyaları bulunur.
+`data`: Verilerin bulunduğu dizindir.
