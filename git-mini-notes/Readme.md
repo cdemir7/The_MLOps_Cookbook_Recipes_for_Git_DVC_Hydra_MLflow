@@ -29,10 +29,13 @@
 - Kayıp commitleri bile kurtarmak için:
     - `git reflog`: HEAD’in geçmiş hareketleri (geri dönüş/kurtarma için altın değerinde)
 
-
 ## Yeni branch oluşturma ve yeni brach'i aktif etme
 - `git fetch origin`
 - `git switch main`: (eski gitlerde: git checkout main)
 - `git pull --ff-only origin main`: main’i güncelle
 - `git switch -c feature/cifar-aug`: yeni branch’i oluştur ve geç
 - `git push -u origin feature/cifar-aug`: uzakta oluştur + upstream ayarla
+
+## Sürümleme
+- Sürümler SemVer ile etiketlenir (örn. `v0.1.0`, `v0.1.1`).
+- Yayınlar annotated tag olarak işaretlenir.
